@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ejercicio#1.cpp" />
+    <ClCompile Include="Estadistica_ej_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Estadistica_ej_1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
