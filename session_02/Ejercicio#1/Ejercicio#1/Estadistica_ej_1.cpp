@@ -16,7 +16,7 @@ void Estadistica_ej_1::CalcularMayor(int numeros[], int tamano) {
 
 void Estadistica_ej_1::CalcularMenor(int numeros[], int tamano) {
 	int menor = numeros[0];
-	for (int i = 1; i < tamano; i++)
+	for (int i = 0; i < tamano; i++)
 	{
 		if (numeros[i] < menor)
 		{
@@ -30,9 +30,9 @@ void Estadistica_ej_1::CalcularPromedio(int numeros[], int tamano) {
 	int suma = 0;
 	for (int i = 0; i < tamano; i++)
 	{
-		suma += numeros[i];
+		suma += numeros[i];	
 	}
-	double promedio = (suma) / tamano;
+	double promedio = static_cast<double>(suma) / tamano; 
 	cout << "El promedio es: " << promedio << endl;
 }
 void Estadistica_ej_1::calcularsuma(int numeros[], int tamano) {

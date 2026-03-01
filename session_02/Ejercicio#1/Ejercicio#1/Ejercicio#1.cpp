@@ -44,6 +44,6 @@ int main()
 		default:
 			break;
 		}
-	} while (opcion != 4);
+	} while (opcion != 5);
 	return 0;	
 }
