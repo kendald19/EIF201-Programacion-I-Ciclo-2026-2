@@ -1,12 +1,9 @@
 #pragma once
-
-
 #ifndef PAQUETES_H
 #define PAQUETES_H
 
 #include <iostream>
 	
-
 // Solicita la cantidad de paquetes (debe ser > 0), reserva el arreglo
 // con new y retorna el puntero.
 double* crearRegistro(int& cantidad);

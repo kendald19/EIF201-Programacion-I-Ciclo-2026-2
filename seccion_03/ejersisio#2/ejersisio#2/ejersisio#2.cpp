@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 #include "paquetes.h"
 
 int main() {
@@ -20,7 +19,7 @@ int main() {
     const double* masPesado = buscarMasPesado(pesos, cantidad);
 
     std::cout << std::endl << std::fixed << std::setprecision(2);
-    std::cout << "|         RESUMEN DEL REGISTRO           |" << std::endl;
+    std::cout << "|        RESUMEN DEL REGISTRO          |" << std::endl;
     std::cout << "  Paquetes registrados: " << cantidad << std::endl;
     std::cout << "  Peso total: " << total << " kg" << std::endl;
     std::cout << "  Peso promedio: " << promedio << " kg" << std::endl;
